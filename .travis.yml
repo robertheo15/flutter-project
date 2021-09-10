@@ -13,8 +13,7 @@ before_script:
   - ./flutter/bin/flutter doctor
 script:
   - ./flutter/bin/flutter test
-before_install:
-  - chmod +x gradlew
+  - chmod +x ./gradlew build connectedCheck
 cache:
   directories:
     - $HOME/.pub-cache
