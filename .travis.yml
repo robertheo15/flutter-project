@@ -13,6 +13,7 @@ before_script:
   - ./flutter/bin/flutter doctor
 script:
   - ./flutter/bin/flutter test
+before_install:
   - chmod +x gradlew
 cache:
   directories:
